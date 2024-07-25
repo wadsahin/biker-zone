@@ -1,0 +1,40 @@
+@media screen and (max-width: 576px){
+  section, nav{
+    max-width: 90%;
+  }
+  /* nav style */
+  .nav-large-devices{
+    display: none;
+  }
+  .nav-bars {
+    display: block;
+  }
+  .nav-bars .three-line-bar{
+    width: 30px;
+    height: 4px;
+    margin: 5px 0px;
+  }
+  /* hero section */
+  .hero{
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .hero-contents-column{
+    width: 100%;
+  }
+  .hero-sec-title{
+    font-size: 2.4rem;
+  }
+  .hero-img-column{
+    width: 100%;
+  }
+  /* featured bikes */
+  .bikes-container{
+    flex-direction: column;
+    gap: 120px;
+  }
+  .section-title{
+    font-size: 1.5rem;
+  }
+
+}

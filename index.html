@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biker Zone</title>
+  <script src="https://kit.fontawesome.com/e7b97ff256.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mobile.css">
 </head>
@@ -12,19 +13,28 @@
 <body>
   <header>
     <nav>
-      <ul class="nav-lists">
-        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">News</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-      </ul>
-      <a href="#" class="btn">Login</a>
+      <div class="nav-large-devices">
+        <ul class="nav-lists">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#" class="btn">Login</a>
+      </div>
+      <div class="nav-bars hide" style="float: right;">
+        <div class="three-line-bar"></div>
+        <div class="three-line-bar"></div>
+        <div class="three-line-bar"></div>
+      </div>
     </nav>
     <section class="hero">
       <div class="hero-contents-column">
         <span class="small-subtitle">Computer-controlled digital transistorized with electronic advance</span>
         <h2 class="section-title hero-sec-title margin-b-15">Honda CBR 300R</h2>
-        <p class="section-desc hero-desc margin-b-15">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <p class="section-desc hero-desc margin-b-15">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+          amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
         <button class="btn hero-btn">Purchase</button>
       </div>
       <div class="hero-img-column">
@@ -32,7 +42,20 @@
       </div>
     </section>
   </header>
-  <main></main>
+  <main>
+    <!-- Featured Bikes section -->
+     <section class="featured-bikes-section">
+      <div class="section-header margin-b-40">
+        <h2 class="section-title">Featured Bikes In This Year</h2>
+        <p class="section-desc">Best bike collection</p>
+      </div>
+      <div class="bikes-container">
+        <img class="feature-bike-gray" src="images/others/feature-bike.png" alt="">
+        <img src="images/others/feature-bike.png" alt="">
+        <img class="feature-bike-gray" src="images/others/feature-bike.png" alt="">
+      </div>
+     </section>
+  </main>
   <footer></footer>
 </body>
 

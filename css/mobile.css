@@ -3,6 +3,9 @@
     max-width: 90%;
   }
   /* nav style */
+  header {
+    padding-bottom: 15px;
+  }
   .nav-large-devices{
     display: none;
   }
@@ -47,5 +50,30 @@
   .client-review-card-container{
     flex-direction: column-reverse;
   }
-
+  .happy-client-header{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .happy-client-header .section-title{
+    font-size: 2rem;
+  }
+  /* FAQ section style */
+  .faq-container{
+    flex-direction: column;
+    gap: 80px;
+  }
+  .faq-img-column{
+    width: 90%;
+  }
+  .faq-contents-column{
+    width: 100%;
+  }
+  .faq-header{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .faq-header .section-title{
+    font-size: 2rem;
+  }
 }

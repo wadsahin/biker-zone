@@ -34,7 +34,10 @@ img {
 .bright-bg {
   background-color: #E76F51;
 }
-
+.margin-x-15{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .margin-b-15 {
   margin-bottom: 15px;
 }
@@ -184,9 +187,35 @@ nav {
   color: #E76F51;
 
 }
-
-
-
+/* happy clients review section */
+.client-review-card-container{
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.client-review-card{
+  padding: 30px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  text-align: center;
+}
+.review-star{
+  width: 22px;
+  height: 22px;
+}
+.client-name{
+  color: #23A6F0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.client-profession{
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #252B42;
+}
 /* display none */
 .hide {
   display: none;

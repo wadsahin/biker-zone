@@ -43,5 +43,9 @@
   .latest-news-title{
     text-align: start;
   }
+  /* happy clients review section */
+  .client-review-card-container{
+    flex-direction: column-reverse;
+  }
 
 }

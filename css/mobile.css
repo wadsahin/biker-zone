@@ -36,5 +36,12 @@
   .section-title{
     font-size: 1.5rem;
   }
+  /* latest news and bike section */
+  .latest-bike-card-container{
+    flex-direction: column;
+  }
+  .latest-news-title{
+    text-align: start;
+  }
 
 }

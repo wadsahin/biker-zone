@@ -76,4 +76,19 @@
   .faq-header .section-title{
     font-size: 2rem;
   }
+  /* footer */
+  .footer-section{
+    flex-direction: column;
+    gap: 60px;
+  }
+  .second-row{
+    flex-wrap: wrap;
+  }
+  .copyright-large-device{
+    display: none;
+  }
+  .copyright-small-device{
+    display: block;
+    text-align: center;
+  }
 }

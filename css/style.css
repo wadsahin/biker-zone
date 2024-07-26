@@ -27,6 +27,12 @@ img {
 }
 
 /* Shared or common style */
+.d-flex{
+  display: flex;
+}
+.gap-20{
+  gap: 20px;
+}
 .bright-color {
   color: #E76F51;
 }
@@ -259,7 +265,31 @@ nav {
 .faq-arrow-icon i{
   
 }
-/* display none */
+/* footer styles */
+footer{
+  padding-top: 40px;
+  padding-bottom: 44px;
+  background-color: #0B0D17;
+}
+.footer-section{
+  margin-bottom: 0px;
+  padding-bottom: 56px;
+  justify-content: space-between;
+}
+.copyright{
+  color: #D9DBE1;
+}
+.copyright-large-device{
+  padding-top: 20px;
+}
+.apps-title{
+  color: #D9DBE1;
+}
+.footer-apps img{
+  width: 135px;
+  height: 40px;
+}
+/* display none forever */
 .hide {
   display: none;
 }

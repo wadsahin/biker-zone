@@ -51,11 +51,11 @@
     flex-direction: column-reverse;
   }
   .happy-client-header{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
   }
   .happy-client-header .section-title{
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
   /* FAQ section style */
   .faq-container{
